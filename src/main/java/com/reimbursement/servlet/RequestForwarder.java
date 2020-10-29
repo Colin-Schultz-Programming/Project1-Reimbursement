@@ -24,16 +24,17 @@ public class RequestForwarder {
 		case "/Reimbursement/register.page":
 			System.out.println("register page");
 			switch (new UserController(logger).register(req)) {
-			case "userExists":
-				System.out.println("Username Taken");
-				break;
-			case "emailExists":
-				System.out.println("Email Taken");
-				break;
-			case "accountCreated":
-				System.out.println("Account Created");
-				break;
-			}
+				case "userExists":
+					System.out.println("Username Taken");
+					break;
+				case "emailExists":
+					System.out.println("Email Taken");
+					break;
+				case "accountCreated":
+					System.out.println("Account Created");
+					break;
+				}
+			return "FrontEnd/html/landing.html";
 		case "/Reimbursement/submitrequest.page":
 			return new ReimbursementController(logger).createNewReimbursement(req);
 		default: 
@@ -43,12 +44,21 @@ public class RequestForwarder {
 	
 	public void data(HttpServletRequest req, HttpServletResponse res, Logger logger) throws IOException {
 		switch(req.getRequestURI()) {
-		case "/Reimbursement/all.json":
+		case "/Reimbursement/userPending.json":
 			new ReimbursementController(logger).sendUserPending(res, req);
 			break;
-		case "/HallowsMonsters/monster.json":
-			//new SaveController().save(req, res);
+		case "/Reimbursement/userResolved.json":
+			new ReimbursementController(logger).sendUserResolved(res, req);
+			break;
+
+		case "/Reimbursement/Resolved.json":
+			new ReimbursementController(logger).sendResolved(res, req);
+			break;
+		
+		case "/Reimbursement/Pending.json":
+			new ReimbursementController(logger).sendPending(res, req);
 			break;
 		}
 	}
+	
 }

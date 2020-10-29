@@ -95,7 +95,7 @@ public class ReimbursementDao implements DaoContract<Reimbursement, Integer>{
 	}
 	public List<Reimbursement> findAllPendingByUser(Integer i) {
 		List<Reimbursement> r = new LinkedList<>();
-		String sql = "select * from ers_reimbursement where reimb_author = ? and where reimb_status_id = 0"; // this will sanitize the input
+		String sql = "select * from ers_reimbursement where reimb_author = ? AND reimb_status_id = 0"; // this will sanitize the input
 		try (Connection conn = RDBConnection.CreateRDBConnection(logger);
 				PreparedStatement ps = conn.prepareStatement(sql)) {
 				ps.setInt(1, i);
@@ -113,7 +113,7 @@ public class ReimbursementDao implements DaoContract<Reimbursement, Integer>{
 	}
 	public List<Reimbursement> findAllResolvedByUser(Integer i) {
 		List<Reimbursement> r = new LinkedList<>();
-		String sql = "select * from ers_reimbursement where reimb_author = ? where reimb_status_id != 0"; // this will sanitize the input
+		String sql = "select * from ers_reimbursement where reimb_author = ? and reimb_status_id != 0"; // this will sanitize the input
 		try (Connection conn = RDBConnection.CreateRDBConnection(logger);
 				PreparedStatement ps = conn.prepareStatement(sql)) {
 				ps.setInt(1, i);

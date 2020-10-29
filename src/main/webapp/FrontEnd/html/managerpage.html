@@ -14,23 +14,33 @@
     <table class="table">
       <thead class="thead-dark">
         <tr>
-          <th scope="col">Name</th>
+          <th scope="col">Reimbursement ID</th>
+          <th scope="col">User ID</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Submitted</th>
+          <th scope="col">Description</th>
           <th scope="col">Type</th>
-          <th scope="col">Idk</th>
-          <th scope="col">Test</th>
         </tr>
       </thead>
-      <tbody id="hallowsTableBody"></tbody>
+      <tbody id=pendingReimbursements></tbody>
     </table>
-
-    <div>
-      <input type="text" id="monName" placeholder="name of monster" />
-      <input type="text" id="monType" placeholder="type of monster" />
-      <input type="checkbox" id="monFur" value="true" />
-      <input type="checkbox" id="monPaws" value="true" />
-      <button id="monSubmit">submit monster</button>
-    </div>
-    <script src="js/monster.js"></script>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Reimbursement ID</th>
+           <th scope="col">User ID</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Submitted</th>
+          <th scope="col">Resolved</th>
+          <th scope="col">Description</th>
+          <th scope="col">Type</th>
+          <th scope="col">Status</th>
+          <th scope="col">Resolver</th>
+        </tr>
+      </thead>
+      <tbody id=resolvedReimbursements></tbody>
+    </table>
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -41,5 +51,6 @@
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
+    <script src="FrontEnd/js/manreimb.js"></script>
   </body>
 </html>

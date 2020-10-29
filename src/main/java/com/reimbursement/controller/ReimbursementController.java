@@ -36,9 +36,10 @@ public class ReimbursementController {
 	}
 	public void sendAllData(HttpServletResponse res) {
 		res.setContentType("text/json");
-		List<Reimbursement> monsters = rs.findAll();
+		List<Reimbursement> reimbs = rs.findAll();
 		try {
-			res.getWriter().println(new ObjectMapper().writeValueAsString(monsters));
+			res.getWriter().println(new ObjectMapper().writeValueAsString(reimbs));
+			System.out.println(new ObjectMapper().writeValueAsString(reimbs));
 		} catch (IOException e) {
 		}
 	}
@@ -48,6 +49,39 @@ public class ReimbursementController {
 		int sessionUser = Integer.parseInt(req.getSession().getAttribute("userID").toString());
 
 		List<Reimbursement> reimb = rs.findAllByPendingUserID(sessionUser);
+		try {
+			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));
+		} catch (IOException e) {
+		}
+	}
+	public void sendUserResolved(HttpServletResponse res, HttpServletRequest req) {
+		res.setContentType("text/json");
+		
+		int sessionUser = Integer.parseInt(req.getSession().getAttribute("userID").toString());
+
+		List<Reimbursement> reimb = rs.findAllByResolvedUserID(sessionUser);
+		try {
+			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));
+		} catch (IOException e) {
+		}
+	}
+	public void sendResolved(HttpServletResponse res, HttpServletRequest req) {
+		res.setContentType("text/json");
+		
+		int sessionUser = Integer.parseInt(req.getSession().getAttribute("userID").toString());
+
+		List<Reimbursement> reimb = rs.findAllResolved();
+		try {
+			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));
+		} catch (IOException e) {
+		}
+	}
+	public void sendPending(HttpServletResponse res, HttpServletRequest req) {
+		res.setContentType("text/json");
+		
+		int sessionUser = Integer.parseInt(req.getSession().getAttribute("userID").toString());
+
+		List<Reimbursement> reimb = rs.findAllPending();
 		try {
 			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));
 		} catch (IOException e) {
