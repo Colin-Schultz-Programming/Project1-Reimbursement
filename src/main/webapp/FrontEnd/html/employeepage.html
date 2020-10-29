@@ -14,22 +14,46 @@
     <table class="table">
       <thead class="thead-dark">
         <tr>
-          <th scope="col">Name</th>
+          <th scope="col">ID</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Submitted</th>
+          <th scope="col">Description</th>
           <th scope="col">Type</th>
-          <th scope="col">Idk</th>
-          <th scope="col">Test</th>
         </tr>
       </thead>
-      <tbody id="hallowsTableBody"></tbody>
+      <tbody id=pendingReimbursements></tbody>
     </table>
-
-    <div>
-      <input type="text" id="monName" placeholder="name of monster" />
-      <input type="text" id="monType" placeholder="type of monster" />
-      <input type="checkbox" id="monFur" value="true" />
-      <input type="checkbox" id="monPaws" value="true" />
-      <button id="monSubmit">submit monster</button>
-    </div>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Submitted</th>
+          <th scope="col">Resolved</th>
+          <th scope="col">Description</th>
+          <th scope="col">Type</th>
+          <th scope="col">Status</th>
+          <th scope="col">Resolver</th>
+        </tr>
+      </thead>
+      <tbody id=resolvedReimbursements></tbody>
+    </table>
+    
+    
+    <form action="submitrequest.page">
+	  <input type="number" name="amount" placeholder="Amount Requested" />
+	   <input type="text" name="description" placeholder="Description" />
+	  <select name = "reimb_type" name="reimb_type">
+	    <option value=0>Travel</option>
+	    <option value=1>Food</option>
+	    <option value=2>Equipment</option>
+	    <option value=3> Relocation</option>
+	    <option value=4>Lodging</option>
+	    <option value=5>Other</option>
+	  </select>
+	  <input type="submit" value="Submit Reimbursement">
+	</form> 
+    
     <script src="js/monster.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -53,6 +53,8 @@ public class UserController {
 			if(u != null) {
 				
 				if(UtilityFunctions.verifyLogin(u.getUsername(),up, logger)) {
+					req.getSession().setAttribute("userID", u.getUserID());
+					
 					if(u.getUserRoleID() == 1) {
 						return "FrontEnd/html/managerpage.html";
 					}

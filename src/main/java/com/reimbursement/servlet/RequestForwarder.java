@@ -33,7 +33,9 @@ public class RequestForwarder {
 			case "accountCreated":
 				System.out.println("Account Created");
 				break;
-			}	
+			}
+		case "/Reimbursement/submitrequest.page":
+			return new ReimbursementController(logger).createNewReimbursement(req);
 		default: 
 			return "FrontEnd/html/landing.html";
 		}
@@ -42,7 +44,7 @@ public class RequestForwarder {
 	public void data(HttpServletRequest req, HttpServletResponse res, Logger logger) throws IOException {
 		switch(req.getRequestURI()) {
 		case "/Reimbursement/all.json":
-			new ReimbursementController(logger).sendAllData(res);
+			new ReimbursementController(logger).sendUserPending(res, req);
 			break;
 		case "/HallowsMonsters/monster.json":
 			//new SaveController().save(req, res);

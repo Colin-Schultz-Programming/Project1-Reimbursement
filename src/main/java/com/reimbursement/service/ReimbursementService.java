@@ -20,8 +20,21 @@ public class ReimbursementService {
 		return rd.findAllByUser(i);
 	}
 	
+	public List<Reimbursement> findAllByPendingUserID(int i){
+		return rd.findAllPendingByUser(i);
+	}
+	public List<Reimbursement> findAllByResolvedUserID(int i){
+		return rd.findAllResolvedByUser(i);
+	}
+	
 	public List<Reimbursement> findAll(){
 		return rd.findAll();
+	}
+	public List<Reimbursement> findAllResolved(){
+		return rd.findAllResolved();
+	}
+	public List<Reimbursement> findAllPending(){
+		return rd.findAllPending();
 	}
 	public Reimbursement Approve(Reimbursement r, int i) {
 		r.setResolverID(i);
