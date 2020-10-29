@@ -1,0 +1,946 @@
+Application Started
+Attempting to connect to remote database
+Remote connection successful.
+Application Closing
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started3
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Closing
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Application Started
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Attempting to connect to remote database
+2020-10-12-main--INFO -com.cardealer.console.ConsoleVisualizer:Remote connection successful.
+2020-10-12 14:07:31 INFO  ConsoleVisualizer:29 - Application Started
+2020-10-12 14:07:31 INFO  ConsoleVisualizer:46 - Attempting to connect to remote database
+2020-10-12 14:07:32 INFO  ConsoleVisualizer:48 - Remote connection successful.
+2020-10-12 14:08:33 INFO  ConsoleVisualizer:29 - Application Started
+2020-10-12 14:08:33 INFO  ConsoleVisualizer:46 - Attempting to connect to remote database
+2020-10-12 14:08:34 INFO  ConsoleVisualizer:48 - Remote connection successful.
+2020-10-12 14:08:42 INFO  ConsoleVisualizer:55 - Application Closing
+INFO	2020-10-12 14:16:27,975	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:16:27,999	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:16:29,490	1515	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:16:55,137	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:16:55,162	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:16:56,060	923	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:19:00,146	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:19:00,170	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:19:01,036	890	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:19:36,354	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:19:36,377	23	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:19:37,223	869	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:21:18,275	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:21:18,303	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:21:19,180	905	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:24:43,034	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:24:43,056	22	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:24:43,897	863	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:25:01,552	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:25:01,580	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:25:02,458	906	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:31:31,945	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:31:31,971	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:31:32,848	903	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 14:33:03,824	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 14:33:03,850	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 14:33:04,683	859	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-12 15:25:19,908	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-12 15:25:19,937	29	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-12 15:25:20,920	1012	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:45:32,665	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:45:32,702	37	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:45:33,715	1050	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:45:37,462	4797	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:45:37,873	5208	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:45:37,934	5269	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:45:38,354	5689	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:45:39,432	6767	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:45:39,432	6767	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:46:10,936	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:46:10,971	35	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:11,947	1011	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:16,233	5297	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:16,662	5726	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:16,720	5784	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:17,131	6195	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:17,976	7040	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:46:39,485	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:46:39,527	42	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:40,498	1013	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:43,473	3988	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:43,955	4470	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:44,009	4524	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:46:44,427	4942	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:46:45,378	5893	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:46:59,924	20439	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:47:00,327	20842	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:47:00,370	20885	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:48:48,911	1	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:48:48,941	31	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:48:49,863	953	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:48:51,970	3060	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:48:52,396	3486	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:48:52,448	3538	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:48:52,871	3961	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:48:53,667	4757	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:49:11,604	22694	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:49:12,047	23137	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:49:12,088	23178	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:49:42,756	1	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:49:42,783	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:49:43,781	1026	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:49:46,765	4010	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:49:47,214	4459	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:49:47,274	4519	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:49:47,700	4945	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:49:48,561	5806	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:49:59,497	16742	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:49:59,927	17172	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:49:59,980	17225	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:54:07,752	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:54:07,786	34	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:54:08,740	988	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:54:11,422	3670	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:54:11,919	4167	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:54:11,975	4223	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:54:12,422	4670	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:54:13,241	5489	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:54:28,887	21135	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:54:29,284	21532	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:54:29,330	21578	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:55:24,582	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:55:24,611	29	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:55:25,608	1026	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:55:40,515	15933	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:55:40,952	16370	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:55:41,019	16437	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:55:42,445	17863	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:55:43,179	18597	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 10:55:52,253	27671	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:55:52,653	28071	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:55:52,691	28109	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 10:55:52,692	28110	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 10:57:16,156	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 10:57:16,191	35	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:57:17,153	997	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:57:28,466	12310	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:57:28,881	12725	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:57:28,938	12782	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 10:57:29,342	13186	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 10:57:30,172	14016	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 11:10:23,218	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 11:10:23,249	31	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 11:10:24,230	1012	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 11:10:26,994	3776	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 11:10:27,429	4211	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 11:10:27,488	4270	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 11:10:27,897	4679	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 11:10:28,708	5490	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:09:49,196	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:09:49,221	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:09:50,203	1007	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:03,998	14802	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:04,426	15230	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:04,480	15284	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:04,902	15706	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:04,941	15745	com.cardealer.console.ConsoleVisualizer	[main]	Account created with username: mockito
+INFO	2020-10-13 17:10:11,033	21837	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:11,437	22241	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:11,476	22280	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:11,890	22694	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:12,672	23476	com.cardealer.console.ConsoleVisualizer	[main]	Logged into mockito
+INFO	2020-10-13 17:10:17,533	28337	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:17,938	28742	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:25,019	35823	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:25,496	36300	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:27,484	38288	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:27,895	38699	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:10:27,939	38743	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: mockito
+INFO	2020-10-13 17:10:31,940	42744	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:10:32,328	43132	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:43:37,836	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:43:37,864	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:43:38,815	979	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:43:42,057	4221	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:43:42,490	4654	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:43:42,549	4713	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:43:42,962	5126	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:43:44,100	6264	com.cardealer.console.ConsoleVisualizer	[main]	Logged into test
+INFO	2020-10-13 17:43:47,670	9834	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:43:48,068	10232	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:06,139	28303	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:06,565	28729	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:09,114	31278	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:09,625	31789	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:09,664	31828	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: test
+INFO	2020-10-13 17:44:14,387	36551	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:14,785	36949	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:19,719	41883	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 17:44:23,068	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:44:23,091	23	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:24,015	947	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:26,841	3773	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:27,283	4215	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:27,336	4268	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:27,752	4684	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:28,579	5511	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:44:47,914	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:44:47,949	35	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:48,908	994	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:51,440	3526	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:51,871	3957	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:51,928	4014	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:52,345	4431	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:44:53,013	5099	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:44:54,583	6669	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:44:54,998	7084	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:45:19,411	31497	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:45:19,883	31969	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:45:39,703	51789	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:45:40,116	52202	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:45:40,157	52243	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 17:45:40,158	52244	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 17:47:11,847	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:47:11,871	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:47:12,815	968	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:47:15,441	3594	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:47:15,868	4021	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:47:15,927	4080	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:47:16,312	4465	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:47:17,011	5164	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:47:20,604	8757	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:47:21,107	9260	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:48:01,804	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:48:01,837	33	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:48:02,779	975	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:48:06,809	5005	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:48:07,283	5479	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:48:07,342	5538	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:48:07,820	6016	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:48:08,725	6921	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:48:11,021	9217	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:48:11,608	9804	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:48:38,946	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:48:38,980	34	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:48:39,896	950	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:06,865	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:49:06,890	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:07,852	987	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:10,412	3547	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:10,853	3988	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:10,914	4049	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:11,488	4623	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:12,572	5707	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:49:14,546	7681	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:15,042	8177	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:43,358	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:49:43,391	33	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:44,371	1013	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:46,800	3442	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:47,236	3878	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:47,296	3938	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:47,742	4384	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:49:48,473	5115	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:49:49,549	6191	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:49:49,953	6595	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:50:20,901	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:50:20,929	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:50:21,881	980	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:50:23,878	2977	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:50:24,355	3454	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:50:24,406	3505	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:50:24,877	3976	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:50:25,486	4585	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:50:27,305	6404	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:50:27,727	6826	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:00,776	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:51:00,807	31	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:01,716	940	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:06,171	5395	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:06,610	5834	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:06,668	5892	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:07,078	6302	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:08,746	7970	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:51:09,890	9114	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:10,302	9526	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:16,061	15285	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:16,467	15691	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:16,505	15729	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:16,965	16189	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:17,004	16228	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:17,400	16624	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:17,445	16669	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:51:17,848	17072	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:51:17,887	17111	com.cardealer.console.ConsoleVisualizer	[main]	Car: 3is now owned by null
+INFO	2020-10-13 17:53:50,711	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:53:50,739	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:53:51,663	952	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:53:54,668	3957	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:53:55,097	4386	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:53:55,151	4440	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:53:55,555	4844	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:53:56,394	5683	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:53:58,195	7484	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:53:58,599	7888	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:54:04,175	13464	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:54:04,573	13862	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:54:04,611	13900	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:54:05,043	14332	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:54:05,082	14371	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:54:05,570	14859	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:54:05,607	14896	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:54:06,038	15327	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:54:06,170	15459	com.cardealer.console.ConsoleVisualizer	[main]	Car: 3is now owned by null
+INFO	2020-10-13 17:55:05,033	74322	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 17:55:08,812	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:55:08,838	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:10,026	1214	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:12,594	3782	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:13,127	4315	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:13,189	4377	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:13,603	4791	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:14,374	5562	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:55:15,761	6949	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:16,209	7397	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:22,598	13786	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:23,000	14188	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:23,039	14227	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:23,445	14633	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:23,482	14670	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:23,879	15067	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:23,917	15105	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:55:24,403	15591	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:55:24,441	15629	com.cardealer.console.ConsoleVisualizer	[main]	Car: 4is now owned by mockito
+INFO	2020-10-13 17:57:40,021	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:57:40,051	30	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:57:41,183	1162	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:57:46,610	6589	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:57:47,016	6995	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:57:47,069	7048	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:57:47,486	7465	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:57:48,269	8248	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:57:52,176	12155	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:57:52,580	12559	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:57:52,621	12600	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 17:57:52,622	12601	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 17:59:33,425	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 17:59:33,447	22	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:59:34,542	1117	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:59:38,363	4938	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:59:39,068	5643	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:59:39,210	5785	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:59:40,284	6859	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 17:59:41,271	7846	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 17:59:46,939	13514	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 17:59:47,379	13954	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:02,966	29541	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:03,405	29980	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:11,163	37738	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:11,690	38265	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:16,519	43094	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:16,920	43495	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:29,782	56357	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:30,260	56835	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:32,731	59306	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:33,227	59802	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:33,265	59840	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: colin
+INFO	2020-10-13 18:00:47,017	73592	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:00:47,543	74118	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:00:59,642	86217	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:01:00,030	86605	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:01:05,422	91997	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:01:05,834	92409	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:01:05,871	92446	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:01:06,347	92922	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:01:06,386	92961	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:01:06,798	93373	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:01:06,836	93411	com.cardealer.console.ConsoleVisualizer	[main]	set 4 to owned
+INFO	2020-10-13 18:01:06,837	93412	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:01:07,229	93804	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:01:07,266	93841	com.cardealer.console.ConsoleVisualizer	[main]	Car: 4is now owned by colin
+INFO	2020-10-13 18:02:42,114	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 18:02:42,147	33	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:02:43,068	954	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:02:46,452	4338	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:02:46,879	4765	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:02:46,935	4821	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:02:47,367	5253	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:02:48,066	5952	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 18:02:50,435	8321	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:02:50,838	8724	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:03:09,959	27845	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:03:10,361	28247	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:03:15,539	33425	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 18:03:19,291	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 18:03:19,317	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:03:20,195	904	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:03:22,534	3243	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:03:22,956	3665	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:03:23,010	3719	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:03:23,429	4138	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:03:24,121	4830	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 18:03:30,334	11043	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:03:30,740	11449	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:09,544	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 18:04:09,569	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:10,154	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 18:04:10,177	23	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:10,489	945	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:11,037	883	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:12,962	2808	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:13,377	3223	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:13,431	3277	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:13,846	3692	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:14,474	4320	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 18:04:20,673	10519	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:21,255	11101	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:36,876	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 18:04:36,905	29	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:37,738	862	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:39,989	3113	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:40,437	3561	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:40,485	3609	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:40,889	4013	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:04:41,525	4649	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-13 18:04:50,185	13309	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+INFO	2020-10-13 18:04:50,589	13713	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 18:05:09,414	32538	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:27:14,867	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:27:14,893	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:27:15,865	998	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:27:19,951	5084	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:27:20,389	5522	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:27:20,450	5583	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:27:20,859	5992	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:27:21,705	6838	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:27:39,287	24420	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:27:39,688	24821	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:27:39,726	24859	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:27:39,727	24860	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:28:43,085	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:28:43,109	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:28:44,010	925	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:28:46,124	3039	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:28:46,544	3459	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:28:46,601	3516	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:28:47,010	3925	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:28:47,676	4591	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:29:03,496	20411	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:29:03,901	20816	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:29:03,938	20853	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:29:03,938	20853	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:29:35,564	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:29:35,593	29	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:29:36,594	1030	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:29:39,185	3621	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:29:39,715	4151	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:29:39,774	4210	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:29:40,191	4627	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:29:40,972	5408	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:29:57,996	22432	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:29:58,427	22863	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:29:58,464	22900	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:29:58,464	22900	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:30:35,496	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:30:35,523	27	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:30:36,547	1051	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:30:39,609	4113	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:30:40,053	4557	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:30:40,113	4617	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:30:40,536	5040	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:30:41,634	6138	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:30:42,796	7300	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:30:43,266	7770	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:31:16,293	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:31:16,325	32	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:31:17,215	922	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:31:21,788	5495	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:31:22,223	5930	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:31:22,278	5985	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:31:22,702	6409	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:31:24,400	8107	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:31:43,759	27466	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:31:44,164	27871	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:31:44,202	27909	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:31:44,203	27910	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:32:04,730	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:32:04,756	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:05,785	1055	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:32:09,415	4685	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:09,847	5117	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:32:09,904	5174	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:10,325	5595	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:32:11,044	6314	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:32:15,705	10975	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:16,110	11380	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:32:16,154	11424	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:32:16,154	11424	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:32:41,823	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:32:41,849	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:42,813	990	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:32:45,790	3967	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:46,226	4403	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:32:46,282	4459	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:46,689	4866	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:32:47,431	5608	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:32:52,456	10633	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:32:52,862	11039	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:32:52,902	11079	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:32:52,902	11079	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:33:09,983	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:33:10,009	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:10,960	977	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:33:15,825	5842	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:16,273	6290	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:33:16,331	6348	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:16,739	6756	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:33:17,461	7478	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:33:21,727	11744	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:22,131	12148	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:33:22,170	12187	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:33:22,171	12188	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:33:34,932	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:33:34,960	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:35,929	997	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:33:39,534	4602	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:39,967	5035	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:33:40,023	5091	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:40,435	5503	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:33:41,050	6118	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:33:44,723	9791	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:33:45,149	10217	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:33:45,323	10391	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:33:45,324	10392	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:34:52,076	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:34:52,102	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:34:53,057	981	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:34:55,592	3516	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:34:56,044	3968	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:34:56,100	4024	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:34:56,524	4448	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:34:57,259	5183	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:35:02,172	10096	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:35:02,587	10511	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:35:02,626	10550	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:35:02,626	10550	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:35:19,058	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:35:19,083	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:35:20,025	967	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:35:23,656	4598	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:35:24,100	5042	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:35:24,156	5098	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:35:24,558	5500	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:35:25,186	6128	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:35:29,625	10567	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:35:30,027	10969	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:35:30,066	11008	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-13 19:35:30,066	11008	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 19:36:40,938	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:36:40,961	23	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:41,865	927	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:44,329	3391	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:44,797	3859	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:44,852	3914	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:45,409	4471	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:36:46,110	5172	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:36:47,315	6377	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:47,720	6782	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:52,753	11815	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:53,153	12215	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:53,984	13046	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:54,495	13557	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:55,497	14559	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:55,891	14953	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:56,629	15691	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:57,073	16135	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:57,404	16466	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:57,806	16868	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:36:58,453	17515	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:36:58,962	18024	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:37:03,991	23053	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:37:04,379	23441	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:37:06,913	25975	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:37:07,312	26374	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:37:21,670	40732	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:37:22,106	41168	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:37:22,148	41210	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+DEBUG	2020-10-13 19:37:26,739	45801	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:37:27,151	46213	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:37:31,881	50943	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:37:32,300	51362	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:38:19,330	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:38:19,358	28	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:38:20,277	947	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:38:24,078	4748	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:38:24,552	5222	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:38:24,609	5279	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:38:25,000	5670	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:38:25,701	6371	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:38:28,738	9408	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:38:29,139	9809	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:38:35,883	16553	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:38:36,303	16973	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:57:27,853	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:57:27,890	37	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:28,945	1092	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:57:32,027	4174	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:32,459	4606	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:57:32,519	4666	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:32,954	5101	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:57:33,733	5880	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:57:38,013	10160	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:38,415	10562	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:57:50,155	22302	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:50,748	22895	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:57:50,786	22933	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:57:51,183	23330	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:58:35,398	67545	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:58:35,888	68035	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:58:35,927	68074	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:58:36,385	68532	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:58:40,271	72418	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:58:40,676	72823	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:58:50,603	82750	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:58:51,001	83148	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:59:08,127	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 19:59:08,129	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 19:59:08,165	38	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:08,170	41	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:09,360	1231	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:09,367	1240	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:15,195	7066	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:15,642	7513	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:15,699	7570	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:16,126	7997	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 19:59:16,796	8667	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 19:59:21,625	13496	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:22,046	13917	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:23,966	15837	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:24,436	16307	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:27,484	19355	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:27,892	19763	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 19:59:27,929	19800	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 19:59:28,430	20301	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:01:42,799	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:01:42,831	32	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:43,800	1001	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:01:46,348	3549	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:46,761	3962	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:01:46,818	4019	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:47,211	4412	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:01:47,855	5056	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:01:52,477	9678	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:52,881	10082	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:01:54,505	11706	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:54,900	12101	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:01:54,939	12140	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:01:55,349	12550	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:02:02,555	19756	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:02:02,969	20170	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:03:11,097	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:03:11,124	27	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:12,147	1050	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:15,559	4462	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:16,024	4927	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:16,080	4983	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:16,504	5407	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:03:17,260	6163	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:03:23,953	12856	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:24,402	13305	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:30,177	19080	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:30,650	19553	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:36,410	25313	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:36,827	25730	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:36,868	25771	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:37,277	26180	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:03:40,096	28999	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:03:40,515	29418	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:04:19,918	68821	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:04:20,366	69269	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:04:23,677	72580	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:04:24,089	72992	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:04:24,129	73032	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:04:24,568	73471	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:04:28,408	77311	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:04:28,806	77709	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:04:35,177	84080	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:04:35,585	84488	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:05:27,881	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:05:27,917	36	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:28,874	993	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:05:31,758	3877	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:32,375	4494	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:05:32,434	4553	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:32,866	4985	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:05:33,515	5634	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:05:39,026	11145	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:39,492	11611	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:05:43,410	15529	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:43,816	15935	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:05:47,721	19840	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:05:48,151	20270	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:00,586	92705	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:01,039	93158	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:01,081	93200	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:01,476	93595	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:09,590	101709	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:10,127	102246	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:17,473	109592	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:17,877	109996	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:35,459	127578	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:35,899	128018	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:07:46,575	138694	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:07:46,970	139089	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:08:14,917	167036	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 20:08:44,596	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:08:44,620	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:08:45,638	1042	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:08:50,075	5479	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:08:50,500	5904	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:08:50,558	5962	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:08:50,984	6388	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:08:51,707	7111	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:09:01,246	16650	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:01,651	17055	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:03,487	18891	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:03,886	19290	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:03,926	19330	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:04,335	19739	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:07,476	22880	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:07,877	23281	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:13,530	28934	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:13,960	29364	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:09:50,645	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:09:50,680	35	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:52,703	2058	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:55,619	4974	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:56,052	5407	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:09:56,112	5467	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:09:56,550	5905	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:09:57,319	6674	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:10:00,673	10028	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:10:01,083	10438	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:10:08,781	18136	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:10:09,189	18544	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:10:11,346	20701	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:10:11,789	21144	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:11:34,746	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:11:34,779	33	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:11:35,739	993	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:11:38,330	3584	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:11:38,775	4029	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:11:38,833	4087	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:11:39,280	4534	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:11:39,975	5229	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:11:47,063	12317	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:11:47,544	12798	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:11:50,834	16088	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:11:51,324	16578	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:12:41,664	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:12:41,691	27	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:12:42,676	1012	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:12:45,991	4327	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:12:46,423	4759	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:12:46,479	4815	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:12:46,887	5223	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:12:47,618	5954	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:12:54,045	12381	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:12:54,500	12836	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:12:56,615	14951	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:12:57,021	15357	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:14:23,254	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:14:23,289	35	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:24,251	997	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:14:27,151	3897	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:27,605	4351	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:14:27,666	4412	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:28,123	4869	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:14:28,924	5670	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:14:34,867	11613	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:35,270	12016	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:14:39,889	16635	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:40,301	17047	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:14:41,475	18221	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:14:41,877	18623	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:15:06,405	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 20:15:06,434	29	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:07,348	943	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:15:10,788	4383	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:11,253	4848	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:15:11,314	4909	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:11,735	5330	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:15:12,689	6284	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 20:15:19,646	13241	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:20,051	13646	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:15:22,143	15738	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:22,546	16141	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 20:15:23,528	17123	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:23,955	17550	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:15:23,996	17591	com.cardealer.console.ConsoleVisualizer	[main]	Payment made
+DEBUG	2020-10-13 20:15:28,250	21845	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 20:15:28,663	22258	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 20:17:40,737	154332	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 22:19:15,028	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:19:15,050	22	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:19:15,996	968	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:19:18,642	3614	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:19:19,090	4062	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:19:19,140	4112	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:19:19,565	4537	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:19:20,439	5411	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:19:22,264	7236	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:19:22,664	7636	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:19:51,042	36014	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 22:40:44,076	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:40:44,098	22	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:40:44,935	859	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:40:48,037	3961	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:40:48,500	4424	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:40:48,554	4478	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:40:48,971	4895	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:40:49,731	5655	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:41:03,858	19782	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:41:04,309	20233	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:41:18,818	34742	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:41:19,290	35214	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:42:50,194	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:42:50,218	24	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:42:51,076	882	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:42:55,809	5615	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:42:56,221	6027	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:42:56,276	6082	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:42:56,691	6497	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:42:57,374	7180	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:43:05,333	15139	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:43:05,746	15552	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:43:14,805	24611	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:43:15,196	25002	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:44:21,514	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:44:21,540	26	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:44:22,403	889	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:44:25,220	3706	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:44:25,622	4108	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:44:25,677	4163	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:44:26,093	4579	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:44:26,938	5424	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:44:32,204	10690	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:44:32,597	11083	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:44:37,616	16102	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:44:38,007	16493	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:46:03,635	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:46:03,667	32	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:04,594	959	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:46:06,754	3119	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:07,189	3554	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:46:07,245	3610	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:07,665	4030	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:46:08,397	4762	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:46:13,769	10134	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:14,169	10534	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:46:26,047	22412	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:26,462	22827	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:46:26,499	22864	com.cardealer.console.ConsoleVisualizer	[main]	Car with ID: 7 updated
+DEBUG	2020-10-13 22:46:28,211	24576	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:46:28,797	25162	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:46:42,314	38679	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 22:47:16,931	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:47:16,954	23	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:17,849	918	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:47:31,653	14722	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:32,074	15143	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:47:32,130	15199	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:32,540	15609	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:47:32,579	15648	com.cardealer.console.ConsoleVisualizer	[main]	Account created with username: rental
+DEBUG	2020-10-13 22:47:35,427	18496	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:35,827	18896	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:47:35,866	18935	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:36,252	19321	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:47:36,943	20012	com.cardealer.console.ConsoleVisualizer	[main]	Logged into rental
+DEBUG	2020-10-13 22:47:39,490	22559	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:39,887	22956	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:47:48,610	31679	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:49,068	32137	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:47:52,874	35943	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:47:53,270	36339	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:47:53,309	36378	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: rental
+DEBUG	2020-10-13 22:48:37,510	80579	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:37,966	81035	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:48:40,709	83778	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 22:48:45,889	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:48:45,910	21	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:46,792	903	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:48:50,416	4527	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:50,837	4948	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:48:50,890	5001	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:51,303	5414	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:48:52,012	6123	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:48:55,400	9511	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:55,798	9909	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:48:55,838	9949	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:56,250	10361	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:48:56,286	10397	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:48:56,697	10808	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:48:56,737	10848	com.cardealer.console.ConsoleVisualizer	[main]	Demoted rental
+INFO	2020-10-13 22:50:06,360	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:50:06,390	30	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:08,253	1893	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:10,409	4049	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:10,867	4507	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:10,919	4559	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:11,315	4955	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:50:12,011	5651	com.cardealer.console.ConsoleVisualizer	[main]	Logged into rental
+DEBUG	2020-10-13 22:50:17,060	10700	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:17,451	11091	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:50:23,942	17582	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 22:50:26,498	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+DEBUG	2020-10-13 22:50:26,523	25	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:27,383	885	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:33,445	6947	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:33,866	7368	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:33,919	7421	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:34,532	8034	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:50:35,274	8776	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+DEBUG	2020-10-13 22:50:38,925	12427	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:39,340	12842	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:39,377	12879	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:39,785	13287	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+DEBUG	2020-10-13 22:50:39,824	13326	com.cardealer.console.ConsoleVisualizer	[main]	Attempting to connect to remote database
+DEBUG	2020-10-13 22:50:40,219	13721	com.cardealer.console.ConsoleVisualizer	[main]	Remote connection successful.
+INFO	2020-10-13 22:50:40,256	13758	com.cardealer.console.ConsoleVisualizer	[main]	promotedrental
+INFO	2020-10-13 22:50:44,461	17963	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-13 23:20:20,519	1	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-13 23:20:39,737	19219	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-14 10:07:25,027	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-14 10:07:39,535	14508	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-14 11:23:53,015	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-14 11:24:18,181	25166	com.cardealer.console.ConsoleVisualizer	[main]	Account created with username: cust1
+INFO	2020-10-14 11:24:30,221	37206	com.cardealer.console.ConsoleVisualizer	[main]	Logged into cust1
+INFO	2020-10-14 11:25:03,726	70711	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: cust1
+INFO	2020-10-14 11:25:18,280	85265	com.cardealer.console.ConsoleVisualizer	[main]	Offer created for: cust1
+INFO	2020-10-14 11:25:21,305	88290	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-14 11:25:23,872	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-14 11:25:31,177	7305	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-14 11:25:51,888	28016	com.cardealer.console.ConsoleVisualizer	[main]	set 1 to owned
+INFO	2020-10-14 11:25:52,352	28480	com.cardealer.console.ConsoleVisualizer	[main]	Car: 1is now owned by cust1
+INFO	2020-10-14 11:26:34,501	70629	com.cardealer.console.ConsoleVisualizer	[main]	Car added to lot
+INFO	2020-10-14 11:26:55,675	91803	com.cardealer.console.ConsoleVisualizer	[main]	Car with ID: 18 updated
+INFO	2020-10-14 11:27:23,321	119449	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-14 11:27:26,102	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-14 11:27:31,189	5087	com.cardealer.console.ConsoleVisualizer	[main]	Logged into cust1
+INFO	2020-10-14 11:27:53,977	27875	com.cardealer.console.ConsoleVisualizer	[main]	Payment made
+INFO	2020-10-14 11:28:00,673	34571	com.cardealer.console.ConsoleVisualizer	[main]	Application Closing
+INFO	2020-10-14 11:28:03,993	0	com.cardealer.console.ConsoleVisualizer	[main]	Application Started
+INFO	2020-10-14 11:28:09,020	5027	com.cardealer.console.ConsoleVisualizer	[main]	Logged into colin
+INFO	2020-10-14 11:28:13,805	9812	com.cardealer.console.ConsoleVisualizer	[main]	Demoted cust1
+INFO	2020-10-14 11:28:22,070	18077	com.cardealer.console.ConsoleVisualizer	[main]	promotedcust1

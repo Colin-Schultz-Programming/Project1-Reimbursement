@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="0" name="tests.Tests" time="20.211" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre\bin"/>
+    <property name="java.vm.version" value="25.261-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/kingc/Documents/GitHub/Project1-EmployeeReimbursement"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\kingc\Documents\GitHub\Project1-EmployeeReimbursement"/>
+    <property name="java.runtime.version" value="1.8.0_261-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\kingc\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\kingc\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\kingc\bin;C:\program files (x86)\common files\oracle\java\javapath;C:\program files\oculus\support\oculus-runtime;C:\windows\system32;C:\windows;C:\windows\system32\wbem;C:\windows\system32\windowspowershell\v1.0;C:\windows\system32\openssh;C:\program files\putty;C:\program files\nvidia corporation\nvidia nvdlisr;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\Program Files\nodejs;C:\Program Files (x86)\Scripts;C:\Program Files (x86);C:\Users\kingc\AppData\Local\Microsoft\WindowsApps;C:\Users\kingc\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kingc\AppData\Local\GitHubDesktop\bin;C:\Users\kingc\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.7_qbz5n2kfra8p0;C:\Program Files (x86)\Java\jdk1.8.0_261\bin;C:\Users\kingc\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.3/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\kingc"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Colin"/>
+    <property name="java.class.path" value="C:/ProgramData/chocolatey/lib/maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_261"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_261\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="tests.Tests" name="userRoleNulls" time="0.728"/>
+  <testcase classname="tests.Tests" name="reimbUpdateA" time="3.472"/>
+  <testcase classname="tests.Tests" name="reimbUpdateD" time="1.799"/>
+  <testcase classname="tests.Tests" name="reimbFindAllByUser" time="1.796"/>
+  <testcase classname="tests.Tests" name="userFindByID" time="1.884"/>
+  <testcase classname="tests.Tests" name="testRDBConnectionCreateRDBConnection" time="0.426"/>
+  <testcase classname="tests.Tests" name="userFindAll" time="1.791"/>
+  <testcase classname="tests.Tests" name="testHash" time="0.001"/>
+  <testcase classname="tests.Tests" name="userDeleteNotFound" time="0.438"/>
+  <testcase classname="tests.Tests" name="reimbFindByID" time="1.782"/>
+  <testcase classname="tests.Tests" name="UserRoleFindById" time="0.544"/>
+  <testcase classname="tests.Tests" name="userDaoCreate" time="1.37"/>
+  <testcase classname="tests.Tests" name="reimbStatusFindAll" time="0.507"/>
+  <testcase classname="tests.Tests" name="reimbStatusNulls" time="0"/>
+  <testcase classname="tests.Tests" name="reimbTypeNulls" time="0.002"/>
+  <testcase classname="tests.Tests" name="reimbTypeFindById" time="0.435"/>
+  <testcase classname="tests.Tests" name="userUpdate" time="0.027"/>
+  <testcase classname="tests.Tests" name="userRoleFindAll" time="0.465"/>
+  <testcase classname="tests.Tests" name="reimbTypeFindAll" time="0.464"/>
+  <testcase classname="tests.Tests" name="reimbFindAll" time="1.816"/>
+  <testcase classname="tests.Tests" name="reimbStatusFindById" time="0.464"/>
+</testsuite>

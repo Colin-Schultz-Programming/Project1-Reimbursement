@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Project1-EmployeeReimbursement</display-name>
+  <welcome-file-list>
+    <welcome-file>FrontEnd/html/landing.html</welcome-file>
+	<welcome-file>/login.page</welcome-file>
+  </welcome-file-list>
+
+<context-param>
+  	<param-name>application</param-name>
+  	<param-value>application name is HelloTomcat</param-value>
+  </context-param>
+  <servlet>
+  	<servlet-name>indirect</servlet-name>
+  	<servlet-class>com.web.servlet.IndirectServlet</servlet-class>
+  	<!-- we can give the servlet configurations that it will have for its lifetime -->
+  	<init-param>
+  		<param-name>servlet</param-name>
+  		<param-value>indirect servlet paramater</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>indirect</servlet-name>
+  	<url-pattern>/redirect	</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>indirect</servlet-name>
+  	<url-pattern>/forward</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>indirect</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+</web-app>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>IndirectServlet.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Reimbursement</a> &gt; <a href="index.source.html" class="el_package">com.reimbursement.servlet</a> &gt; <span class="el_source">IndirectServlet.java</span></div><h1>IndirectServlet.java</h1><pre class="source lang-java linenums">package com.reimbursement.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * 
+ * servlets
+ * 		what is it?
+ * 			A servlet is a java class to extend the capabilities of a server.
+ * 
+ * 		to create a servlet
+ * 			1. extend the httpservlet abstract class
+ * 			2. register it with tomcat
+ * 				a. web.xml
+ * 				b. annotations
+ * 
+ * 
+ * hierarchy of a servlet
+ * 
+ * 		Servlet (interface)
+ * 			GenericServlet (AC)
+ * 				HttpServlet (AC)
+ * 					CustomServlet (our class)
+ * 
+ * 		status codes
+ * 			100 = informational
+ * `		200 = ok
+ * 			300 = redirect
+ * 			400 = client side errors
+ * 			500 = server side errors
+ * 
+ * 		Redirect
+ * 			2 requests 2 responses
+ *		Forward
+ *			1 request 1 response
+ *		direct
+ *			1 request 1 response
+ *
+ *		http methods
+ *			get, post, put, delete, patch, head, options, etc...
+ *
+ *		these methods are associated with crud methods
+ *			get = read
+ *			post = create
+ *			put = update
+ *			delete = delete
+ *			patch = update
+ *		
+ */
+
+<span class="nc" id="L56">public class IndirectServlet extends HttpServlet{</span>
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+<span class="nc" id="L65">		System.out.println(this.getServletConfig().getInitParameter(&quot;servlet&quot;));</span>
+<span class="nc" id="L66">		System.out.println(this.getServletName());</span>
+<span class="nc" id="L67">		System.out.println(this.getServletContext().getInitParameter(&quot;application&quot;));</span>
+		
+		//redirect will change the url and send the user somewhere else
+//		resp.sendRedirect(&quot;03-Front End/html/intro.html&quot;);
+		// url stays the same, the server handles all information gathering
+<span class="nc" id="L72">		req.getRequestDispatcher(&quot;03-Front End/html/login.html&quot;).forward(req, resp);</span>
+<span class="nc" id="L73">	}</span>
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+<span class="nc" id="L77">		String username = req.getParameter(&quot;username&quot;);</span>
+<span class="nc" id="L78">		String password = req.getParameter(&quot;password&quot;);</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">		if(username.equals(&quot;john&quot;)) {</span>
+<span class="nc bnc" id="L80" title="All 2 branches missed.">			if(password.equals(&quot;pass&quot;)) {</span>
+<span class="nc" id="L81">				req.getRequestDispatcher(&quot;03-Front End/html/success.html&quot;).forward(req, resp);</span>
+<span class="nc" id="L82">			} else req.getRequestDispatcher(&quot;03-Front End/html/intro.html&quot;).forward(req, resp);</span>
+<span class="nc" id="L83">		} else req.getRequestDispatcher(&quot;03-Front End/html/intro.html&quot;).forward(req, resp);</span>
+<span class="nc" id="L84">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>UtilityFunctions.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Reimbursement</a> &gt; <a href="index.source.html" class="el_package">com.reimbursement.service</a> &gt; <span class="el_source">UtilityFunctions.java</span></div><h1>UtilityFunctions.java</h1><pre class="source lang-java linenums">package com.reimbursement.service;
+
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.List;
+import java.util.Scanner;
+
+
+import org.apache.log4j.Logger;
+
+import com.reimbursement.model.Reimbursement;
+import com.reimbursement.model.User;
+import com.reimbursement.repo.ReimbursementDao;
+import com.reimbursement.repo.UserDao;
+
+<span class="nc" id="L16">public class UtilityFunctions {</span>
+	public static int confirmINT(Scanner sc) {
+<span class="nc bnc" id="L18" title="All 2 branches missed.">		while(!sc.hasNextInt()) { //prevents improper input</span>
+<span class="nc" id="L19">			System.out.println(&quot;Please input an integer.&quot;);</span>
+<span class="nc" id="L20">			sc.next();</span>
+		}
+<span class="nc" id="L22">		return sc.nextInt();</span>
+	}
+	//md5 Salt hash
+	public static String encryptPassword(String password) {
+<span class="fc" id="L26">		String returnPass = null;</span>
+		try {
+            // Create MessageDigest instance for MD5
+<span class="fc" id="L29">            MessageDigest md = MessageDigest.getInstance(&quot;MD5&quot;);</span>
+            //Add password bytes to digest
+<span class="fc" id="L31">            md.update(password.getBytes());</span>
+            //Get the hash's bytes 
+<span class="fc" id="L33">            byte[] bytes = md.digest();</span>
+            //This bytes[] has bytes in decimal format;
+            //Convert it to hexadecimal format
+<span class="fc" id="L36">            StringBuilder sb = new StringBuilder();</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">            for(int i=0; i&lt; bytes.length ;i++)</span>
+            {
+<span class="fc" id="L39">                sb.append(Integer.toString((bytes[i] &amp; 0xff) + 0x100, 16).substring(1));</span>
+            }
+            //Get complete hashed password in hex format
+<span class="fc" id="L42">            returnPass = sb.toString();</span>
+            
+        } 
+<span class="nc" id="L45">        catch (NoSuchAlgorithmException e) </span>
+        {
+<span class="nc" id="L47">            e.printStackTrace();</span>
+<span class="fc" id="L48">        }</span>
+<span class="fc" id="L49">        return returnPass;</span>
+		
+	}
+	
+	public static boolean verifyLogin(String username, String password, Logger logger) {
+<span class="nc" id="L54">		UserDao checker = new UserDao(logger);</span>
+<span class="nc" id="L55">		User check = checker.findByUserName(username);</span>
+		
+<span class="nc bnc" id="L57" title="All 4 branches missed.">		if(check.getUsername().equals(username) &amp;&amp; check.getPassword().equals(UtilityFunctions.encryptPassword(password))) {</span>
+<span class="nc" id="L58">			return true;</span>
+		}
+<span class="nc" id="L60">		return false;</span>
+	}
+	
+	public static void registerUser(User user, Logger logger) {
+<span class="nc" id="L64">		UserDao creator= new UserDao(logger);</span>
+<span class="nc" id="L65">		creator.create(user);</span>
+<span class="nc" id="L66">	}</span>
+	
+	public static List&lt;Reimbursement&gt; retrieveReimbursements(User user, Logger logger){
+<span class="nc" id="L69">		ReimbursementDao retrieve  = new ReimbursementDao(logger);</span>
+<span class="nc" id="L70">		return retrieve.findAllByUser(user.getUserID());</span>
+	}
+	
+	
+	
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
