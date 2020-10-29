@@ -5,7 +5,24 @@ async function asyncFetch(url, expression){
   expression(json);
 }
 
-
+function reimbType(num){
+  switch (num){    
+    case 0:
+      return "Travel";
+    case 1:
+      return "Food";
+    case 2:
+      return "Equipment";
+    case 3:
+      return "Lodging";
+    case 4:
+      return "Relocation";
+    case 5:
+      return "Other";
+    default:
+      return "Other";  
+  }
+ }
 
 
 function renderPendingTable(reimbs) {
@@ -27,7 +44,7 @@ function renderPendingTable(reimbs) {
 
     submittedTD.innerText = reimb.submitted;
     descriptionTD.innerText = reimb.description;
-    typeTD.innerText = reimb.typeID;
+    typeTD.innerText = reimbType(reimb.typeID);
     tr.append(idTD, uidTD, amountTD, submittedTD, descriptionTD, typeTD);
 
     document.getElementById("pendingReimbursements").append(tr);
@@ -59,14 +76,15 @@ function renderResolvedTable(reimbs) {
     submittedTD.innerText = reimb.submitted;
     resolvedTD.innerText = reimb.resolved;
     descriptionTD.innerText = reimb.description;
-    if(reimb.statusTD == 2){
+    console.log(reimb.statusID);
+    if(reimb.statusID == 2){
       statusTD.innerText = "Approved";
     }
     else{
       statusTD.innerText = "Denied";
     }
     resolverTD.innerText = reimb.resolverID;
-    typeTD.innerText = reimb.typeID;
+    typeTD.innerText = reimbType(reimb.typeID);
     tr.append(idTD, uidTD, amountTD, submittedTD, resolvedTD, descriptionTD, typeTD, statusTD, resolverTD);
 
     document.getElementById("resolvedReimbursements").append(tr);

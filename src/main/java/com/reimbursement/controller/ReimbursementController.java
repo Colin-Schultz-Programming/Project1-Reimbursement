@@ -32,6 +32,7 @@ public class ReimbursementController {
 		int reimb_type = Integer.parseInt(req.getParameter("reimb_type").toString());
 		Reimbursement r = new Reimbursement(0,amount, null, null, description, null, sessionUser, 0, 0, reimb_type);
 		rs.Create(r);
+		
 		return "FrontEnd/html/employeepage.html";
 	}
 	public void sendAllData(HttpServletResponse res) {
@@ -89,6 +90,16 @@ public class ReimbursementController {
 	}
 	public String resolveReimbursement(HttpServletRequest req) {
 		int sessionUser = Integer.parseInt(req.getSession().getAttribute("userID").toString());
+		int i = Integer.parseInt(req.getParameter("number").toString());
+		int x = Integer.parseInt(req.getParameter("reimb_resolve").toString());
+
+		if(x == 2) {
+			rs.Approve(rs.findByID(i), sessionUser);
+		}
+		else {
+			rs.Deny(rs.findByID(i), sessionUser);
+				
+		}
 		return "FrontEnd/html/managerpage.html";
 	}
 	

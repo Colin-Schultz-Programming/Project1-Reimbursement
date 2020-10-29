@@ -40,7 +40,16 @@
       </thead>
       <tbody id=resolvedReimbursements></tbody>
     </table>
-    
+    <form action="resolve.page"  method="post">
+	  <input type="number" name="number" placeholder="Reimbursement ID" required />
+	   <select name = "reimb_resolve" name="reimb_resolve" required>
+        <option value=1>Deny</option>
+        <option value=2>Approve</option>
+      </select>
+      <input type="submit" value="Submit Resolution">
+    </form>
+
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

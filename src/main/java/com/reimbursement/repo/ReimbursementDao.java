@@ -152,7 +152,8 @@ public class ReimbursementDao implements DaoContract<Reimbursement, Integer>{
 
 	@Override
 	public Reimbursement update(Reimbursement t) {
-		String sql = "update ers_reimbursement set (reimb_resolved = ?, reimb_receipt = ?, reimb_resolver = ? , reimb_status_id = ?) where reimb_id = ?";	
+		String sql = "update ers_reimbursement set reimb_resolved = ?, reimb_receipt = ?, reimb_resolver = ? , reimb_status_id = ? where reimb_id = ?";	
+		
 		try (Connection conn = RDBConnection.CreateRDBConnection(logger);
 				PreparedStatement ps = conn.prepareStatement(sql)) {
 				ps.setTimestamp(1, t.getResolved());
@@ -160,6 +161,7 @@ public class ReimbursementDao implements DaoContract<Reimbursement, Integer>{
 				ps.setInt(3,t.getResolverID());
 				ps.setInt(4, t.getStatusID());
 				ps.setInt(5,t.getReimbID());
+				ps.execute();
 				if(t.getStatusID() == 2) logger.info("UserID: " + t.getResolverID() + " resolved reimbursement: Approved");
 				if(t.getStatusID() == 1) logger.info("UserID: " + t.getResolverID() + " resolved reimbursement: Denied");
 		} catch (SQLException e) {

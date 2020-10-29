@@ -9,6 +9,7 @@ import org.apache.log4j.Logger;
 import com.reimbursement.model.Reimbursement;
 import com.reimbursement.repo.ReimbursementDao;
 
+
 public class ReimbursementService {
 	private ReimbursementDao rd;
 	
@@ -18,6 +19,9 @@ public class ReimbursementService {
 	
 	public List<Reimbursement> findAllByUserID(int i){
 		return rd.findAllByUser(i);
+	}
+	public Reimbursement findByID(int i) {
+		return rd.findById(i);
 	}
 	
 	public List<Reimbursement> findAllByPendingUserID(int i){
@@ -37,18 +41,26 @@ public class ReimbursementService {
 		return rd.findAllPending();
 	}
 	public Reimbursement Approve(Reimbursement r, int i) {
+		if(r.getStatusID() != 0) {
+			return r;
+		}
 		r.setResolverID(i);
 		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));
 		r.setStatusID(2);
 		rd.update(r);
+		System.out.println("Approved");
 		return r;
 	}
 	
 	public Reimbursement Deny(Reimbursement r, int i) {
+		if(r.getStatusID() != 0) {
+			return r;
+		}
 		r.setResolverID(i);
 		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));
 		r.setStatusID(1);
 		rd.update(r);
+		System.out.println("Denied");
 		return r;
 	}
 	

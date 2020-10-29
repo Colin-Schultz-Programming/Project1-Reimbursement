@@ -19,7 +19,6 @@ public class RequestForwarder {
 	public String routes(HttpServletRequest req, Logger logger) {
 		switch (req.getRequestURI()){
 		case "/Reimbursement/login.page":
-			System.out.println("login page");
 			return new UserController(logger).login(req);
 		case "/Reimbursement/register.page":
 			System.out.println("register page");
@@ -31,12 +30,14 @@ public class RequestForwarder {
 					System.out.println("Email Taken");
 					break;
 				case "accountCreated":
-					System.out.println("Account Created");
+					logger.info("Account Created");
 					break;
 				}
 			return "FrontEnd/html/landing.html";
 		case "/Reimbursement/submitrequest.page":
 			return new ReimbursementController(logger).createNewReimbursement(req);
+		case "/Reimbursement/resolve.page":
+			return new ReimbursementController(logger).resolveReimbursement(req);
 		default: 
 			return "FrontEnd/html/landing.html";
 		}
