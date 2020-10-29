@@ -27,15 +27,32 @@ public class UserController {
 			this.us = new UserService(logger);
 			this.logger = logger;
 		}
-		
+		public String register(HttpServletRequest req) {
+			String un = req.getParameter("Username").toLowerCase();
+			String up = UtilityFunctions.encryptPassword(req.getParameter("Password"));
+			String fn = req.getParameter("FirstName");
+			String ln = req.getParameter("LastName");
+			String e = req.getParameter("Email").toLowerCase();
+			User u = new User(0, un, up, fn, ln, e, 0);
+			if(us.usernameExists(u)) {
+				return "usernameExists";
+			}
+			if(us.emailExists(u)) {
+				return "emailExists";
+			}
+			us.createUser(u);
+			return "accountCreated";
+			
+			
+		}
 		public String login(HttpServletRequest req) {
-			String un = req.getParameter("Username");
+			String un = req.getParameter("Username").toLowerCase();
 			String up = req.getParameter("Password");
 
 			User u = us.findByUsername(un);
 			if(u != null) {
 				
-				if(UtilityFunctions.verifyLogin(u.getUsername(), u.getPassword(), logger)) {
+				if(UtilityFunctions.verifyLogin(u.getUsername(),up, logger)) {
 					if(u.getUserRoleID() == 1) {
 						return "FrontEnd/html/managerpage.html";
 					}

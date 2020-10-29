@@ -76,7 +76,26 @@ public class UserDao implements DaoContract<User, Integer>{
 			e.printStackTrace();
 		}
 		return u;
+		
+	}
 	
+	public User findByUserEmail(String i) {
+		User u = null;
+		String sql = "select * from ers_users where user_email = ?"; // this will sanitize the input
+		try (Connection conn = RDBConnection.CreateRDBConnection(logger);
+				PreparedStatement ps = conn.prepareStatement(sql)) {
+				ps.setString(1, i);
+			ResultSet rs = ps.executeQuery();
+			while (rs.next()) {
+				u = (new User(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4),rs.getString(5), rs.getString(6), rs.getInt(7)));
+			}
+			rs.close();
+			ps.close();
+			return u;
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return u;
 	}
 	@Override
 	public User update(User t) {

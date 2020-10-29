@@ -15,6 +15,29 @@ public class UserService {
 		return ud.findByUserName(un);
 	}
 	
+	public User findByEmail(String un) {
+		return ud.findByUserEmail(un);
+	}
+	
+	public boolean usernameExists(User u) {
+		try {
+		if (findByUsername(u.getUsername()).getUsername().equals(u.getUsername())) {
+			return true;
+		}}catch (Exception e) {
+			return false;
+		}
+		
+		return false;
+	}
+	public boolean emailExists(User u) {
+		try {
+		if(findByEmail(u.getEmail()).getEmail().equals(u.getEmail())) {
+			return true;
+		}}catch (Exception e) {
+			return false;
+		}
+		return false;
+	}
 	public User findByUserID(int id) {
 		return ud.findById(id);
 	}
