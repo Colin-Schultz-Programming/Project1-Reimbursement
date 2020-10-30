@@ -18,7 +18,7 @@ public class ReimbursementDao implements DaoContract<Reimbursement, Integer>{
 	
 	public ReimbursementDao(Logger logger) {
 		super();
-		this.logger = logger;
+		this.logger = Logger.getLogger(ReimbursementDao.class);
 	}
 	@Override
 	public List<Reimbursement> findAll() {

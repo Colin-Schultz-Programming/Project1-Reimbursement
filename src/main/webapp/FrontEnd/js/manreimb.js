@@ -104,8 +104,8 @@ function renderResolvedTable(reimbs) {
 }
 
 
-asyncFetch("http://localhost:8080/Reimbursement/Pending.json", renderPendingTable);
-asyncFetch("http://localhost:8080/Reimbursement/Resolved.json", renderResolvedTable);
+asyncFetch("http://3.15.238.90:8081/Reimbursement/Pending.json", renderPendingTable);
+asyncFetch("http://3.15.238.90:8081/Reimbursement/Resolved.json", renderResolvedTable);
 
 
  
