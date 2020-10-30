@@ -161,10 +161,12 @@ li {
      <div class="form-popup" id="reimbform">
     <form action="resolve.page"  method="post"  class="form-container">
 	  <input type="number" name="number" placeholder="Reimbursement ID" required />
+    <br>
 	   <select class = "cselect" name = "reimb_resolve"  required>
         <option value=1>Deny</option>
         <option value=2>Approve</option>
       </select>
+        <br>
         <button type="submit" class="btn"> Resolve Reimbursement </button>
         <br>
         <button type="reset" class="btn cancel" onclick="closeForm()">Close</button>
