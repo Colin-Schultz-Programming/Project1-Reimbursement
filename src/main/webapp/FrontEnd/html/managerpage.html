@@ -10,9 +10,126 @@
       crossorigin="anonymous"
     />
   </head>
+
+  <style>
+   body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/015/164/205/large/dogan-karakus-hud-1.jpg?1547308853");
+    background-color: #09c6e3;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+    table, th, td {
+    border: 1px solid cyan;
+    
+    text-align: center;
+    vertical-align: middle;
+    background-color: rgba(19, 197, 207, 0.6);
+    color: white;
+    
+
+  }
+  tr td:last-child{
+    width:1%;
+    white-space:nowrap;
+}
+ /* Add styles to the form container */
+.form-container {
+  max-width: 700px;
+  padding: 15px;
+  background-color: rgba(3, 140, 161, .9);
+  
+}
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 16px 20px;
+
+}
+
+   .menu-buttons{
+  top: 3%;
+  right: 10px;
+  width: 280px;
+  position: absolute;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+ 	position: absolute;
+	top: 20%;
+    left: 40%;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+
+
+/* Full-width input fields */
+.form-container input[type=text], .cselect; .form-container input[type=number], .form-container input[type=Email]  {
+  width: 90%;
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  opacity: 1;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=dropdown]:focus, .form-container input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+   
+   </style>
   <body>
+    <ul>
+	    <li><button class="open-button" onclick="openForm()">Resolve a Reimbursement Request</button></li>
+	    <li>
+        <form action="logout.page" method ="post">
+        <button type = "submit" class="open-button" onclick="openRegisterForm()">Log Out</button>
+        </form>
+      </li>
+	  </ul>
     <table class="table">
-      <thead class="thead-dark">
+      <thead>
         <tr>
           <th scope="col">Reimbursement ID</th>
           <th scope="col">User ID</th>
@@ -25,7 +142,7 @@
       <tbody id=pendingReimbursements></tbody>
     </table>
     <table class="table">
-      <thead class="thead-dark">
+      <thead>
         <tr>
           <th scope="col">Reimbursement ID</th>
            <th scope="col">User ID</th>
@@ -40,15 +157,19 @@
       </thead>
       <tbody id=resolvedReimbursements></tbody>
     </table>
-    <form action="resolve.page"  method="post">
+
+     <div class="form-popup" id="reimbform">
+    <form action="resolve.page"  method="post"  class="form-container">
 	  <input type="number" name="number" placeholder="Reimbursement ID" required />
-	   <select name = "reimb_resolve" name="reimb_resolve" required>
+	   <select class = "cselect" name = "reimb_resolve"  required>
         <option value=1>Deny</option>
         <option value=2>Approve</option>
       </select>
-      <input type="submit" value="Submit Resolution">
+        <button type="submit" class="btn"> Resolve Reimbursement </button>
+        <br>
+        <button type="reset" class="btn cancel" onclick="closeForm()">Close</button>
     </form>
-
+  </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

@@ -3,8 +3,10 @@ package tests;
 
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
+import static org.junit.Assert.assertTrue;
 import static org.mockito.Mockito.*;
 
 
@@ -140,6 +142,43 @@ public class Tests {
 		assertEquals(test.getClass(), find.findAllByUser(0).getClass());
 		find.delete(returned.getReimbID());
 	}
+	
+	@Test
+	public void reimbFindAllApproved() {
+		ReimbursementDao find = new ReimbursementDao(mock(Logger.class));
+		List<Reimbursement> test = new LinkedList<Reimbursement>();
+		assertEquals(test.getClass(), find.findAllResolved().getClass());
+	
+	}
+	@Test
+	public void reimbFindAllPending() {
+		ReimbursementDao find = new ReimbursementDao(mock(Logger.class));
+	
+		
+		List<Reimbursement> test = new LinkedList<Reimbursement>();
+		assertEquals(test.getClass(), find.findAllPending().getClass());
+		
+	}
+	@Test
+	public void reimbFindAllPendingByUser() {
+		ReimbursementDao find = new ReimbursementDao(mock(Logger.class));
+
+		List<Reimbursement> test = new LinkedList<Reimbursement>();
+		assertEquals(test.getClass(), find.findAllPendingByUser(170).getClass());
+	
+	}
+	
+	@Test
+	public void reimbFindAllApprovedByUser() {
+		ReimbursementDao find = new ReimbursementDao(mock(Logger.class));
+
+		List<Reimbursement> test = new LinkedList<Reimbursement>();
+		assertEquals(test.getClass(), find.findAllResolvedByUser(170).getClass());
+	
+	}
+	
+	
+	
 	@Test
 	public void reimbFindByID() {
 		ReimbursementDao find = new ReimbursementDao(mock(Logger.class));
@@ -196,6 +235,8 @@ public class Tests {
 		List<Reimbursement_Type> test = new LinkedList<Reimbursement_Type>();
 		assertEquals(test.getClass(), find.findAll().getClass());
 	}
+	
+	
 	@Test
 	public void reimbTypeNulls() {
 		ReimbursementTypeDao test = new ReimbursementTypeDao(mock(Logger.class));
@@ -222,6 +263,14 @@ public class Tests {
 		test.create(new User_Role(1, "t"));
 		test.delete(0);
 		test.update(new User_Role(1, "t"));
+	}
+	@Test
+	public void verifyLoginTrue() {
+		assertTrue(UtilityFunctions.verifyLogin("colin", "test", mock(Logger.class)));
+	}
+	@Test
+	public void verifyLoginFalse() {
+		assertFalse(UtilityFunctions.verifyLogin("colin", "asdasdtest", mock(Logger.class)));
 	}
 	
 	

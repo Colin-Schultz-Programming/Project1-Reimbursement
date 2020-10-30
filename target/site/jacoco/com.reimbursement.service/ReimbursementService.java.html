@@ -9,41 +9,66 @@ import org.apache.log4j.Logger;
 import com.reimbursement.model.Reimbursement;
 import com.reimbursement.repo.ReimbursementDao;
 
+
 public class ReimbursementService {
 	private ReimbursementDao rd;
 	
-<span class="nc" id="L15">	public ReimbursementService(Logger logger) {</span>
-<span class="nc" id="L16">		this.rd = new ReimbursementDao(logger);</span>
-<span class="nc" id="L17">	}</span>
+<span class="nc" id="L16">	public ReimbursementService(Logger logger) {</span>
+<span class="nc" id="L17">		this.rd = new ReimbursementDao(logger);</span>
+<span class="nc" id="L18">	}</span>
 	
 	public List&lt;Reimbursement&gt; findAllByUserID(int i){
-<span class="nc" id="L20">		return rd.findAllByUser(i);</span>
+<span class="nc" id="L21">		return rd.findAllByUser(i);</span>
+	}
+	public Reimbursement findByID(int i) {
+<span class="nc" id="L24">		return rd.findById(i);</span>
+	}
+	
+	public List&lt;Reimbursement&gt; findAllByPendingUserID(int i){
+<span class="nc" id="L28">		return rd.findAllPendingByUser(i);</span>
+	}
+	public List&lt;Reimbursement&gt; findAllByResolvedUserID(int i){
+<span class="nc" id="L31">		return rd.findAllResolvedByUser(i);</span>
 	}
 	
 	public List&lt;Reimbursement&gt; findAll(){
-<span class="nc" id="L24">		return rd.findAll();</span>
+<span class="nc" id="L35">		return rd.findAll();</span>
+	}
+	public List&lt;Reimbursement&gt; findAllResolved(){
+<span class="nc" id="L38">		return rd.findAllResolved();</span>
+	}
+	public List&lt;Reimbursement&gt; findAllPending(){
+<span class="nc" id="L41">		return rd.findAllPending();</span>
 	}
 	public Reimbursement Approve(Reimbursement r, int i) {
-<span class="nc" id="L27">		r.setResolverID(i);</span>
-<span class="nc" id="L28">		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));</span>
-<span class="nc" id="L29">		r.setStatusID(2);</span>
-<span class="nc" id="L30">		rd.update(r);</span>
-<span class="nc" id="L31">		return r;</span>
+<span class="nc bnc" id="L44" title="All 2 branches missed.">		if(r.getStatusID() != 0) {</span>
+<span class="nc" id="L45">			return r;</span>
+		}
+<span class="nc" id="L47">		r.setResolverID(i);</span>
+<span class="nc" id="L48">		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));</span>
+<span class="nc" id="L49">		r.setStatusID(2);</span>
+<span class="nc" id="L50">		rd.update(r);</span>
+<span class="nc" id="L51">		System.out.println(&quot;Approved&quot;);</span>
+<span class="nc" id="L52">		return r;</span>
 	}
 	
 	public Reimbursement Deny(Reimbursement r, int i) {
-<span class="nc" id="L35">		r.setResolverID(i);</span>
-<span class="nc" id="L36">		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));</span>
-<span class="nc" id="L37">		r.setStatusID(1);</span>
-<span class="nc" id="L38">		rd.update(r);</span>
-<span class="nc" id="L39">		return r;</span>
+<span class="nc bnc" id="L56" title="All 2 branches missed.">		if(r.getStatusID() != 0) {</span>
+<span class="nc" id="L57">			return r;</span>
+		}
+<span class="nc" id="L59">		r.setResolverID(i);</span>
+<span class="nc" id="L60">		r.setResolved(Timestamp.valueOf(LocalDateTime.now()));</span>
+<span class="nc" id="L61">		r.setStatusID(1);</span>
+<span class="nc" id="L62">		rd.update(r);</span>
+<span class="nc" id="L63">		System.out.println(&quot;Denied&quot;);</span>
+<span class="nc" id="L64">		return r;</span>
 	}
 	
 	public Reimbursement Create(Reimbursement r) {
-<span class="nc" id="L43">		r.setSubmitted(Timestamp.valueOf(LocalDateTime.now()));</span>
-<span class="nc" id="L44">		r.setStatusID(0);</span>
-<span class="nc" id="L45">		Reimbursement rt = rd.create(r);</span>
-<span class="nc" id="L46">		return rt;</span>
+<span class="nc" id="L68">		r.setSubmitted(Timestamp.valueOf(LocalDateTime.now()));</span>
+<span class="nc" id="L69">		r.setStatusID(0);</span>
+<span class="nc" id="L70">		Reimbursement rt = rd.create(r);</span>
+<span class="nc" id="L71">		return rt;</span>
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

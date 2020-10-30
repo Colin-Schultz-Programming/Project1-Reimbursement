@@ -7,33 +7,71 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 
+import com.reimbursement.controller.ReimbursementController;
 import com.reimbursement.controller.UserController;
+import com.reimbursement.model.Reimbursement;
 
 
 
-<span class="nc" id="L14">public class RequestForwarder {</span>
+<span class="nc" id="L16">public class RequestForwarder {</span>
 
 	
 	public String routes(HttpServletRequest req, Logger logger) {
-<span class="nc bnc" id="L18" title="All 2 branches missed.">		switch (req.getRequestURI()){</span>
-		case &quot;/Project1-Reimbursement/login.page&quot;:
-<span class="nc" id="L20">			System.out.println(&quot;login page&quot;);</span>
-<span class="nc" id="L21">			return new UserController(logger).login(req);</span>
-			
+
+		
+		
+<span class="nc bnc" id="L23" title="All 6 branches missed.">		switch (req.getRequestURI()){</span>
+		case &quot;/Reimbursement/login.page&quot;:
+<span class="nc" id="L25">			return new UserController(logger).login(req);</span>
+		case &quot;/Reimbursement/register.page&quot;:
+<span class="nc" id="L27">			System.out.println(&quot;register page&quot;);</span>
+<span class="nc bnc" id="L28" title="All 4 branches missed.">			switch (new UserController(logger).register(req)) {</span>
+				case &quot;userExists&quot;:
+<span class="nc" id="L30">					System.out.println(&quot;Username Taken&quot;);</span>
+<span class="nc" id="L31">					break;</span>
+				case &quot;emailExists&quot;:
+<span class="nc" id="L33">					System.out.println(&quot;Email Taken&quot;);</span>
+<span class="nc" id="L34">					break;</span>
+				case &quot;accountCreated&quot;:
+<span class="nc" id="L36">					logger.info(&quot;Account Created&quot;);</span>
+					break;
+				}
+<span class="nc" id="L39">			return &quot;FrontEnd/html/landing.html&quot;;</span>
+		case &quot;/Reimbursement/submitrequest.page&quot;:
+<span class="nc bnc" id="L41" title="All 2 branches missed.">			if(req.getSession().getAttribute(&quot;userID&quot;) == null) {</span>
+<span class="nc" id="L42">				return &quot;FrontEnd/html/landing.html&quot;;</span>
+			}
+<span class="nc" id="L44">			return new ReimbursementController(logger).createNewReimbursement(req);</span>
+		case &quot;/Reimbursement/resolve.page&quot;:
+<span class="nc bnc" id="L46" title="All 2 branches missed.">			if(req.getSession().getAttribute(&quot;userID&quot;) == null) {</span>
+<span class="nc" id="L47">				return &quot;FrontEnd/html/landing.html&quot;;</span>
+			}
+<span class="nc" id="L49">			return new ReimbursementController(logger).resolveReimbursement(req);</span>
+		case &quot;/Reimbursement/logout.page&quot;:
+<span class="nc" id="L51">			req.getSession().setAttribute(&quot;userID&quot;, null);</span>
 		default: 
-<span class="nc" id="L24">			return &quot;FrontEnd/html/landing.html&quot;;</span>
+<span class="nc" id="L53">			return &quot;FrontEnd/html/landing.html&quot;;</span>
 		}
 	}
 	
-	public void data(HttpServletRequest req, HttpServletResponse res) throws IOException {
-<span class="nc bnc" id="L29" title="All 2 branches missed.">		switch(req.getRequestURI()) {</span>
-		case &quot;/HallowsMonsters/all.json&quot;:
-			//new MonsterDataController().sendAllData(res);
-<span class="nc" id="L32">			break;</span>
-		case &quot;/HallowsMonsters/monster.json&quot;:
-			//new SaveController().save(req, res);
+	public void data(HttpServletRequest req, HttpServletResponse res, Logger logger) throws IOException {
+<span class="nc bnc" id="L58" title="All 5 branches missed.">		switch(req.getRequestURI()) {</span>
+		case &quot;/Reimbursement/userPending.json&quot;:
+<span class="nc" id="L60">			new ReimbursementController(logger).sendUserPending(res, req);</span>
+<span class="nc" id="L61">			break;</span>
+		case &quot;/Reimbursement/userResolved.json&quot;:
+<span class="nc" id="L63">			new ReimbursementController(logger).sendUserResolved(res, req);</span>
+<span class="nc" id="L64">			break;</span>
+
+		case &quot;/Reimbursement/Resolved.json&quot;:
+<span class="nc" id="L67">			new ReimbursementController(logger).sendResolved(res, req);</span>
+<span class="nc" id="L68">			break;</span>
+		
+		case &quot;/Reimbursement/Pending.json&quot;:
+<span class="nc" id="L71">			new ReimbursementController(logger).sendPending(res, req);</span>
 			break;
 		}
-<span class="nc" id="L37">	}</span>
+<span class="nc" id="L74">	}</span>
+	
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

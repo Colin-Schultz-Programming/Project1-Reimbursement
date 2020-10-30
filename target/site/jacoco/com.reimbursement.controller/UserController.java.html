@@ -27,28 +27,47 @@ public class UserController {
 <span class="nc" id="L27">			this.us = new UserService(logger);</span>
 <span class="nc" id="L28">			this.logger = logger;</span>
 <span class="nc" id="L29">		}</span>
-		
+		public String register(HttpServletRequest req) {
+<span class="nc" id="L31">			String un = req.getParameter(&quot;Username&quot;).toLowerCase();</span>
+<span class="nc" id="L32">			String up = UtilityFunctions.encryptPassword(req.getParameter(&quot;Password&quot;));</span>
+<span class="nc" id="L33">			String fn = req.getParameter(&quot;FirstName&quot;);</span>
+<span class="nc" id="L34">			String ln = req.getParameter(&quot;LastName&quot;);</span>
+<span class="nc" id="L35">			String e = req.getParameter(&quot;Email&quot;).toLowerCase();</span>
+<span class="nc" id="L36">			User u = new User(0, un, up, fn, ln, e, 0);</span>
+<span class="nc bnc" id="L37" title="All 2 branches missed.">			if(us.usernameExists(u)) {</span>
+<span class="nc" id="L38">				return &quot;usernameExists&quot;;</span>
+			}
+<span class="nc bnc" id="L40" title="All 2 branches missed.">			if(us.emailExists(u)) {</span>
+<span class="nc" id="L41">				return &quot;emailExists&quot;;</span>
+			}
+<span class="nc" id="L43">			us.createUser(u);</span>
+<span class="nc" id="L44">			return &quot;accountCreated&quot;;</span>
+			
+			
+		}
 		public String login(HttpServletRequest req) {
-<span class="nc" id="L32">			String un = req.getParameter(&quot;Username&quot;);</span>
-<span class="nc" id="L33">			String up = req.getParameter(&quot;Password&quot;);</span>
+<span class="nc" id="L49">			String un = req.getParameter(&quot;Username&quot;).toLowerCase();</span>
+<span class="nc" id="L50">			String up = req.getParameter(&quot;Password&quot;);</span>
 
-<span class="nc" id="L35">			User u = us.findByUsername(un);</span>
-<span class="nc bnc" id="L36" title="All 2 branches missed.">			if(u != null) {</span>
+<span class="nc" id="L52">			User u = us.findByUsername(un);</span>
+<span class="nc bnc" id="L53" title="All 2 branches missed.">			if(u != null) {</span>
 				
-<span class="nc bnc" id="L38" title="All 2 branches missed.">				if(UtilityFunctions.verifyLogin(u.getUsername(), u.getPassword(), logger)) {</span>
-<span class="nc bnc" id="L39" title="All 2 branches missed.">					if(u.getUserRoleID() == 1) {</span>
-<span class="nc" id="L40">						return &quot;FrontEnd/html/managerpage.html&quot;;</span>
+<span class="nc bnc" id="L55" title="All 2 branches missed.">				if(UtilityFunctions.verifyLogin(u.getUsername(),up, logger)) {</span>
+<span class="nc" id="L56">					req.getSession().setAttribute(&quot;userID&quot;, u.getUserID());</span>
+					
+<span class="nc bnc" id="L58" title="All 2 branches missed.">					if(u.getUserRoleID() == 1) {</span>
+<span class="nc" id="L59">						return &quot;FrontEnd/html/managerpage.html&quot;;</span>
 					}
 					else {	
-<span class="nc" id="L43">						 return &quot;FrontEnd/html/employeepage.html&quot;;</span>
+<span class="nc" id="L62">						 return &quot;FrontEnd/html/employeepage.html&quot;;</span>
 					}
 	
 				}
 				else {
-<span class="nc" id="L48">					return &quot;FrontEnd/html/landing.html&quot;;</span>
+<span class="nc" id="L67">					return &quot;FrontEnd/html/landing.html&quot;;</span>
 				}
 			} else {
-<span class="nc" id="L51">				return &quot;FrontEnd/html/landing.html&quot;;</span>
+<span class="nc" id="L70">				return &quot;FrontEnd/html/landing.html&quot;;</span>
 			}
 		}
 	}

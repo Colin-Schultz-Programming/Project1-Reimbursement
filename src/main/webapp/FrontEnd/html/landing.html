@@ -4,26 +4,158 @@
 <meta charset="ISO-8859-1">
 <title>Reimbursement Login / Register Page</title>
 </head>
+<style>
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  padding: 16px 20px;
+
+}
+
+body {
+ background-image: url("https://lumiere-a.akamaihd.net/v1/images/databank_watto_01_169_ecd563f1.jpeg?region=0%2C0%2C1560%2C780");
+ background-color: #cccccc;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.menu-buttons{
+  top: 3%;
+  right: 10px;
+  width: 280px;
+  position: absolute;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+ 	position: absolute;
+	top: 20%;
+    left: 40%;
+  /*border: 3px solid #f1f1f1;*/
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 700px;
+  padding: 15px;
+  background-color: grey;
+  opacity: 0.8;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password], .form-container input[type=Email]  {
+  width: 90%;
+  padding: 15px;
+  margin: 5px;
+  border: none;
+  opacity: 1;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus, .form-container input[type=Email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.titleW {
+	width: auto;
+    margin: auto;
+	font-size:80px;
+	font-family: "Comic Sans MS";
+	color: lightgrey;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+</style>
 <body>
-	<form action="login.page" method="post">
+
+	<p class = "titleW"> Watto's Employee Portal </p>
+	
+	<div class="menu-buttons"> 
+	<button class="open-button" onclick="openLoginForm()">Login</button>
+	<button class="open-button" onclick="openRegisterForm()">Register</button>
+	</div>
+	<div class="form-popup" id="login">
+	<form action="login.page" method="post" class="form-container">
 		<label for="Username">Username:</label>
 		<input type="text" name="Username" required>
+		<br>
 		<label for="Password">Password:</label>
 		<input type="text" name="Password">
-		<input type="submit" value="Log In" required>
+		<br>
+		<button type="submit" class="btn"> Log In </button>
+		<button type="reset" class="btn cancel" onclick="closeLoginForm()">Close</button>
 	</form>
-	<form action="register.page" method="post">
+	</div>
+	<div class="form-popup"  id = "register">
+	<form action="register.page" method="post" class="form-container">
 		<label for="Username">Username:</label>
 		<input type="text" name="Username" required>
+		<br>
 		<label for="Password">Password:</label>
 		<input type="text" name="Password" required>
+		<br>
 		<label for="FirstName">First Name:</label>
 		<input type="text" name = "FirstName" required>
+		<br>
 		<label for="LastName">Last Name:</label>
 		<input type="text" name = "LastName" required>
+		<br>
 		<label for="Email">Email:</label>
 		<input type="email" name = "Email" required>
-		<input type="submit" value="Register" required>
-	</form>	
+		<br>
+		<button type="submit" class="btn"> Register </button>
+		<button type="reset" class="btn cancel" onclick="closeRegisterForm()">Close</button>
+	</form>
+	</div>
+
+
+
+
+
+
+
+
+<script  src="FrontEnd/js/landing.js"></script>	
 </body>
 </html>

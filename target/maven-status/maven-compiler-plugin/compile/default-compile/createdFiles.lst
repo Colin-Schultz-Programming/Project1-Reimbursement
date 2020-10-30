@@ -10,7 +10,6 @@ com\reimbursement\servlet\RequestForwarder.class
 com\reimbursement\servlet\ViewServlet.class
 com\reimbursement\controller\UserController.class
 com\reimbursement\repo\UserRoleDao.class
-com\reimbursement\servlet\IndirectServlet.class
 com\reimbursement\model\Reimbursement.class
 com\reimbursement\repo\ReimbursementStatusDao.class
 com\reimbursement\model\Reimbursement_Type.class
@@ -18,4 +17,3 @@ com\reimbursement\repo\UserDao.class
 com\reimbursement\model\User.class
 com\reimbursement\service\UserService.class
 com\reimbursement\repo\DaoContract.class
-com\reimbursement\servlet\DirectServlet.class

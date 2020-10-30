@@ -8,8 +8,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
+
 @WebServlet(name=&quot;data&quot;, urlPatterns = {&quot;*.json&quot;})
-<span class="nc" id="L12">public class DataServlet extends HttpServlet{</span>
+<span class="nc" id="L14">public class DataServlet extends HttpServlet{</span>
 
 	/**
 	 * 
@@ -18,13 +20,13 @@ import javax.servlet.http.HttpServletResponse;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-<span class="nc" id="L21">		new RequestForwarder().data(req, resp);</span>
-<span class="nc" id="L22">	}</span>
+<span class="nc" id="L23">		new RequestForwarder().data(req, resp, Logger.getRootLogger());</span>
+<span class="nc" id="L24">	}</span>
 	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-<span class="nc" id="L26">		new RequestForwarder().data(req, resp);</span>
-<span class="nc" id="L27">	}</span>
+<span class="nc" id="L28">		new RequestForwarder().data(req, resp, Logger.getRootLogger());</span>
+<span class="nc" id="L29">	}</span>
 	
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

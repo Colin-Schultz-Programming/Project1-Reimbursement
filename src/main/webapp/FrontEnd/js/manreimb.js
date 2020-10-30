@@ -1,4 +1,16 @@
 
+function closeForm() {
+  document.getElementById("reimbform").style.display = "none";
+}
+
+function openForm() {
+  document.getElementById("reimbform").style.display = "block";
+}
+
+
+
+
+
 async function asyncFetch(url, expression){
   const response = await fetch(url);
   const json = await response.json();

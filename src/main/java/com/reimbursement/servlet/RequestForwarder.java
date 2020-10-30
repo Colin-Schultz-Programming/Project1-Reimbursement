@@ -17,6 +17,9 @@ public class RequestForwarder {
 
 	
 	public String routes(HttpServletRequest req, Logger logger) {
+
+		
+		
 		switch (req.getRequestURI()){
 		case "/Reimbursement/login.page":
 			return new UserController(logger).login(req);
@@ -35,9 +38,17 @@ public class RequestForwarder {
 				}
 			return "FrontEnd/html/landing.html";
 		case "/Reimbursement/submitrequest.page":
+			if(req.getSession().getAttribute("userID") == null) {
+				return "FrontEnd/html/landing.html";
+			}
 			return new ReimbursementController(logger).createNewReimbursement(req);
 		case "/Reimbursement/resolve.page":
+			if(req.getSession().getAttribute("userID") == null) {
+				return "FrontEnd/html/landing.html";
+			}
 			return new ReimbursementController(logger).resolveReimbursement(req);
+		case "/Reimbursement/logout.page":
+			req.getSession().setAttribute("userID", null);
 		default: 
 			return "FrontEnd/html/landing.html";
 		}

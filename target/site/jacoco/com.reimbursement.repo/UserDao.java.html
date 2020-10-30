@@ -76,51 +76,70 @@ public class UserDao implements DaoContract&lt;User, Integer&gt;{
 <span class="nc" id="L76">			e.printStackTrace();</span>
 		}
 <span class="nc" id="L78">		return u;</span>
+		
+	}
 	
+	public User findByUserEmail(String i) {
+<span class="nc" id="L83">		User u = null;</span>
+<span class="nc" id="L84">		String sql = &quot;select * from ers_users where user_email = ?&quot;; // this will sanitize the input</span>
+<span class="nc" id="L85">		try (Connection conn = RDBConnection.CreateRDBConnection(logger);</span>
+<span class="nc" id="L86">				PreparedStatement ps = conn.prepareStatement(sql)) {</span>
+<span class="nc" id="L87">				ps.setString(1, i);</span>
+<span class="nc" id="L88">			ResultSet rs = ps.executeQuery();</span>
+<span class="nc bnc" id="L89" title="All 2 branches missed.">			while (rs.next()) {</span>
+<span class="nc" id="L90">				u = (new User(rs.getInt(1), rs.getString(2), rs.getString(3), rs.getString(4),rs.getString(5), rs.getString(6), rs.getInt(7)));</span>
+			}
+<span class="nc" id="L92">			rs.close();</span>
+<span class="nc" id="L93">			ps.close();</span>
+<span class="nc" id="L94">			return u;</span>
+<span class="nc" id="L95">		} catch (SQLException e) {</span>
+<span class="nc" id="L96">			e.printStackTrace();</span>
+		}
+<span class="nc" id="L98">		return u;</span>
 	}
 	@Override
 	public User update(User t) {
 		// TODO Auto-generated method stub
-<span class="fc" id="L84">		return null;</span>
+<span class="fc" id="L103">		return null;</span>
 	}
 
 	@Override
 	public User create(User t) {
-<span class="fc" id="L89">		String sql = &quot;insert into ers_users (ers_username, ers_password, user_first_name, user_last_name, user_email, user_role_id) values (?, ?, ?, ?, ?, ?)&quot;; // this will sanitize the input</span>
-<span class="fc" id="L90">		try (Connection conn = RDBConnection.CreateRDBConnection(logger);</span>
-<span class="fc" id="L91">				PreparedStatement ps = conn.prepareStatement(sql)) {</span>
-<span class="fc" id="L92">				ps.setString(1, t.getUsername());</span>
-<span class="fc" id="L93">				ps.setString(2, t.getPassword());</span>
-<span class="fc" id="L94">				ps.setString(3,t.getFirstName());</span>
-<span class="fc" id="L95">				ps.setString(4, t.getLastName());</span>
-<span class="fc" id="L96">				ps.setString(5, t.getEmail());</span>
-<span class="fc" id="L97">				ps.setInt(6, t.getUserRoleID());</span>
-<span class="fc" id="L98">				ps.execute();</span>
+<span class="fc" id="L108">		String sql = &quot;insert into ers_users (ers_username, ers_password, user_first_name, user_last_name, user_email, user_role_id) values (?, ?, ?, ?, ?, ?)&quot;; // this will sanitize the input</span>
+<span class="fc" id="L109">		try (Connection conn = RDBConnection.CreateRDBConnection(logger);</span>
+<span class="fc" id="L110">				PreparedStatement ps = conn.prepareStatement(sql)) {</span>
+<span class="fc" id="L111">				ps.setString(1, t.getUsername());</span>
+<span class="fc" id="L112">				ps.setString(2, t.getPassword());</span>
+<span class="fc" id="L113">				ps.setString(3,t.getFirstName());</span>
+<span class="fc" id="L114">				ps.setString(4, t.getLastName());</span>
+<span class="fc" id="L115">				ps.setString(5, t.getEmail());</span>
+<span class="fc" id="L116">				ps.setInt(6, t.getUserRoleID());</span>
+<span class="fc" id="L117">				ps.execute();</span>
 				
-<span class="fc" id="L100">				t = findByUserName(t.getUsername());</span>
+<span class="fc" id="L119">				t = findByUserName(t.getUsername());</span>
 			
-<span class="fc" id="L102">				ps.close();</span>
-<span class="fc" id="L103">				logger.info(t.getUsername() + &quot; Created an account.&quot;);</span>
-<span class="fc" id="L104">				return t;</span>
-<span class="nc" id="L105">		} catch (SQLException e) {</span>
+<span class="fc" id="L121">				ps.close();</span>
+<span class="fc" id="L122">				logger.info(t.getUsername() + &quot; Created an account.&quot;);</span>
+<span class="fc" id="L123">				return t;</span>
+<span class="nc" id="L124">		} catch (SQLException e) {</span>
 			
 		}
-<span class="nc" id="L108">		return null;</span>
+<span class="nc" id="L127">		return null;</span>
 	}
 
 	@Override
 	public int delete(Integer i) {
-<span class="fc" id="L113">		String sql = &quot;delete from ers_users where ers_users_id = ?&quot;;</span>
-<span class="fc" id="L114">		try (Connection conn = RDBConnection.CreateRDBConnection(logger);</span>
-<span class="fc" id="L115">				PreparedStatement ps = conn.prepareStatement(sql)) {</span>
-<span class="fc" id="L116">				ps.setInt(1, i);</span>
-<span class="fc" id="L117">				ps.execute();</span>
-<span class="fc" id="L118">				return 1;</span>
-<span class="nc" id="L119">		} catch (SQLException e) {</span>
+<span class="fc" id="L132">		String sql = &quot;delete from ers_users where ers_users_id = ?&quot;;</span>
+<span class="fc" id="L133">		try (Connection conn = RDBConnection.CreateRDBConnection(logger);</span>
+<span class="fc" id="L134">				PreparedStatement ps = conn.prepareStatement(sql)) {</span>
+<span class="fc" id="L135">				ps.setInt(1, i);</span>
+<span class="fc" id="L136">				ps.execute();</span>
+<span class="fc" id="L137">				return 1;</span>
+<span class="nc" id="L138">		} catch (SQLException e) {</span>
 			// TODO Auto-generated catch block
-<span class="nc" id="L121">			e.printStackTrace();</span>
+<span class="nc" id="L140">			e.printStackTrace();</span>
 		}
-<span class="nc" id="L123">		return 0;</span>
+<span class="nc" id="L142">		return 0;</span>
 	}
 
 	
