@@ -272,7 +272,11 @@ public class Tests {
 	public void verifyLoginFalse() {
 		assertFalse(UtilityFunctions.verifyLogin("colin", "asdasdtest", mock(Logger.class)));
 	}
-	
+	@Test
+	public void findUserEmail() {
+		UserDao test = new UserDao(mock(Logger.class));
+		test.findByUserEmail("colinschultz3@gmail.com");
+	}
 	
 	
 	

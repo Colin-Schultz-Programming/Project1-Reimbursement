@@ -42,7 +42,7 @@ public class ReimbursementController {
 <span class="nc" id="L42">			res.getWriter().println(new ObjectMapper().writeValueAsString(reimbs));</span>
 <span class="nc" id="L43">			System.out.println(new ObjectMapper().writeValueAsString(reimbs));</span>
 <span class="nc" id="L44">		} catch (IOException e) {</span>
-<span class="nc" id="L45">		}</span>
+		}
 <span class="nc" id="L46">	}</span>
 	public void sendUserPending(HttpServletResponse res, HttpServletRequest req) {
 <span class="nc" id="L48">		res.setContentType(&quot;text/json&quot;);</span>
@@ -53,7 +53,7 @@ public class ReimbursementController {
 		try {
 <span class="nc" id="L54">			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));</span>
 <span class="nc" id="L55">		} catch (IOException e) {</span>
-<span class="nc" id="L56">		}</span>
+		}
 <span class="nc" id="L57">	}</span>
 	public void sendUserResolved(HttpServletResponse res, HttpServletRequest req) {
 <span class="nc" id="L59">		res.setContentType(&quot;text/json&quot;);</span>
@@ -64,7 +64,7 @@ public class ReimbursementController {
 		try {
 <span class="nc" id="L65">			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));</span>
 <span class="nc" id="L66">		} catch (IOException e) {</span>
-<span class="nc" id="L67">		}</span>
+		}
 <span class="nc" id="L68">	}</span>
 	public void sendResolved(HttpServletResponse res, HttpServletRequest req) {
 <span class="nc" id="L70">		res.setContentType(&quot;text/json&quot;);</span>
@@ -75,7 +75,7 @@ public class ReimbursementController {
 		try {
 <span class="nc" id="L76">			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));</span>
 <span class="nc" id="L77">		} catch (IOException e) {</span>
-<span class="nc" id="L78">		}</span>
+		}
 <span class="nc" id="L79">	}</span>
 	public void sendPending(HttpServletResponse res, HttpServletRequest req) {
 <span class="nc" id="L81">		res.setContentType(&quot;text/json&quot;);</span>
@@ -86,7 +86,7 @@ public class ReimbursementController {
 		try {
 <span class="nc" id="L87">			res.getWriter().println(new ObjectMapper().writeValueAsString(reimb));</span>
 <span class="nc" id="L88">		} catch (IOException e) {</span>
-<span class="nc" id="L89">		}</span>
+		}
 <span class="nc" id="L90">	}</span>
 	public String resolveReimbursement(HttpServletRequest req) {
 <span class="nc" id="L92">		int sessionUser = Integer.parseInt(req.getSession().getAttribute(&quot;userID&quot;).toString());</span>
@@ -95,7 +95,7 @@ public class ReimbursementController {
 
 <span class="nc bnc" id="L96" title="All 2 branches missed.">		if(x == 2) {</span>
 <span class="nc" id="L97">			rs.Approve(rs.findByID(i), sessionUser);</span>
-		}
+<span class="nc" id="L98">		}</span>
 		else {
 <span class="nc" id="L100">			rs.Deny(rs.findByID(i), sessionUser);</span>
 				

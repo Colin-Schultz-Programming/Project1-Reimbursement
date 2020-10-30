@@ -18,7 +18,7 @@ public class ReimbursementDao implements DaoContract&lt;Reimbursement, Integer&g
 	
 	public ReimbursementDao(Logger logger) {
 <span class="fc" id="L20">		super();</span>
-<span class="fc" id="L21">		this.logger = logger;</span>
+<span class="fc" id="L21">		this.logger = Logger.getLogger(ReimbursementDao.class);</span>
 <span class="fc" id="L22">	}</span>
 	@Override
 	public List&lt;Reimbursement&gt; findAll() {
@@ -166,7 +166,7 @@ public class ReimbursementDao implements DaoContract&lt;Reimbursement, Integer&g
 <span class="fc bfc" id="L166" title="All 2 branches covered.">				if(t.getStatusID() == 1) logger.info(&quot;UserID: &quot; + t.getResolverID() + &quot; resolved reimbursement: Denied&quot;);</span>
 <span class="nc" id="L167">		} catch (SQLException e) {</span>
 <span class="nc" id="L168">			e.printStackTrace();</span>
-<span class="fc" id="L169">		}</span>
+		}
 		
 <span class="fc" id="L171">		return null;</span>
 	}

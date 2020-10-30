@@ -41,11 +41,11 @@ import com.reimbursement.repo.UserDao;
             //Get complete hashed password in hex format
 <span class="fc" id="L42">            returnPass = sb.toString();</span>
             
-        } 
+<span class="fc" id="L44">        } </span>
 <span class="nc" id="L45">        catch (NoSuchAlgorithmException e) </span>
         {
 <span class="nc" id="L47">            e.printStackTrace();</span>
-<span class="fc" id="L48">        }</span>
+        }
 <span class="fc" id="L49">        return returnPass;</span>
 		
 	}
